@@ -1,0 +1,20 @@
+.wrapper {
+    max-width: 1024px;
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+ img {
+     width: 250px;
+     
+ }
+ p {
+     font-weight: bold;
+ }
+ .columns {
+    font-style: italic;
+    font-weight: normal;
+ }
+ 
