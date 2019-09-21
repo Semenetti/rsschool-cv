@@ -1,1 +1,1 @@
-# rsschool-cv
+[Link to my CV](https://semenetti.github.io/rsschool-cv/cv)
