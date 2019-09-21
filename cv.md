@@ -1,7 +1,7 @@
-#My CV
+# My CV
 
 1. *First Name, Last Name (real ones)*<br>
-##Andrei Semianenka
+## Andrei Semianenka
 2. *Contact Info (add several ways to contact you)*<br>
 **tel: +375447654855 (Viber, Telegram, WhatsApp);**<br>
 **skype: semenetti**
