@@ -20,19 +20,19 @@
 **VS Code, Sublime Text;**<br>
 5. *Code examples*<br>
 ```function getCurrentIp() {
-  try {
-    const url = "http://ip-api.com/json/";
-    fetch(url)
-      .then(res => res.json())
-      .then(data => {
-        userIp = data.query;
-        latitude = data.lat;
-        longitude = data.lon;
-        console.log(`` `Town: ${data.city}\nUser ip: ${userIp}` ``);
-      });
-  } catch (error) {
-    console.log(error);
-  }
+try {
+const url = "http://ip-api.com/json/";
+fetch(url)
+.then(res => res.json())
+.then(data => {
+userIp = data.query;
+latitude = data.lat;
+longitude = data.lon;
+console.log(`Town: ${data.city}\nUser ip: ${userIp}`);
+});
+} catch (error) {
+console.log(error);
+}
 }
 ```
 6. *Experience (for a Junior Dev it means all kinds of experience: coding tests, projects from courses, freelance projects - wherever they had the opportunity to demonstrate skills they have. Also it would be awesome if you add links to source code)*.<br>
