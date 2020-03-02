@@ -3,27 +3,44 @@
 1. *First Name, Last Name (real ones)*<br>
 ## Andrei Semianenka
 2. *Contact Info (add several ways to contact you)*<br>
-**tel: +375447654855 (Viber, Telegram, WhatsApp);**<br>
+**mobile: +375447654855 (Viber, Telegram, WhatsApp);**<br>
 **skype: semenetti**
 3. *Summary (your goal, wishes, reveal what is important for you, what do you want and why).*<br>
-**Learning a new language and become an expert in JS;**<br>
 **Finding and keeping a healthy work-life balance in EPAM with time for friends and family;**<br>
-**Living with integrity, being honest and open with others;**<br>
-**Being a great listener so that others can turn to me.**
+**Learning new and become an expert in Front-End Development;**<br>
 4. *Skills (e.g. programming languages, frameworks, methodologies, version control, tools etc.)*<br>
-**HTML;**<br>
-**CSS;**<br>
+**JavaScript;**<br>
+**HTML5 / CSS;**<br>
+**SASS;**<br>
 **Bootstrap;**<br>
-**LESS.**
+**Webpack;**<br>
+**Eslint;**<br>
+**BEM;**<br>
+**Git / GitHub;**<br>
+**VS Code, Sublime Text;**<br>
 5. *Code examples (LATEST)*<br>
-**Not so far, but I intend to finish Rs school and become a good programmer. Here is some code from Internet:**
-```javascript
-if (isAwesome){
-  return true
+
+```function getCurrentIp() {
+  try {
+    const url = "http://ip-api.com/json/";
+    fetch(url)
+      .then(res => res.json())
+      .then(data => {
+        userIp = data.query;
+        latitude = data.lat;
+        longitude = data.lon;
+        console.log(`Town: ${data.city}\nUser ip: ${userIp}`);
+      });
+  } catch (error) {
+    console.log(error);
+  }
 }
 ```
 6. *Experience (for a Junior Dev it means all kinds of experience: coding tests, projects from courses, freelance projects - wherever they had the opportunity to demonstrate skills they have. Also it would be awesome if you add links to source code)*.<br>
-**Self-study online courses (HTML, CSS, LESS), as well as through Youtube.**
+**RS 2019 Q3**<br>
+**CodeWars**<br>
+**HTML Academy**<br>
+**Online courses (HTML, CSS, LESS)**
 7. *Education (including courses, seminars, lectures, online learning)*<br>
 **Belarusian State University - Layer.**<br>
 **Belarusian State Economic University - Logistics.**
