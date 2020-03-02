@@ -18,8 +18,7 @@
 **BEM;**<br>
 **Git / GitHub;**<br>
 **VS Code, Sublime Text;**<br>
-5. *Code examples (LATEST)*<br>
-
+5. *Code examples*
 ```function getCurrentIp() {
   try {
     const url = "http://ip-api.com/json/";
@@ -29,7 +28,7 @@
         userIp = data.query;
         latitude = data.lat;
         longitude = data.lon;
-        console.log(`Town: ${data.city}\nUser ip: ${userIp}`);
+        console.log(```Town: ${data.city}\nUser ip: ${userIp}```);
       });
   } catch (error) {
     console.log(error);
