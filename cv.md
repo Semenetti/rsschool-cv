@@ -20,27 +20,16 @@
 **VS Code, Sublime Text;**<br>
 5. *Code examples*<br>
 ```
-function getCurrentIp() {
-  try {
-    const url = "http://ip-api.com/json/";
-    fetch(url)
-      .then(res => res.json())
-      .then(data => {
-        userIp = data.query;
-        latitude = data.lat;
-        longitude = data.lon;
-        console.log(`Town: ${data.city}\nUser ip: ${userIp}`);
-      });
-  } catch (error) {
-    console.log(error);
-  }
-}
+https://semenetti-moviesearch.netlify.app/   - Movie search application
+https://gem-puzzle-game.netlify.app/         - Gem puzzle game
+https://semenetti.github.io/english/dist/    - English learning application for kids
+https://semenetti-forecast.netlify.app/      - Forecast application
 ```
 6. *Experience (for a Junior Dev it means all kinds of experience: coding tests, projects from courses, freelance projects - wherever they had the opportunity to demonstrate skills they have. Also it would be awesome if you add links to source code)*.<br>
 **RS 2019 Q3**<br>
 **CodeWars**<br>
 **HTML Academy**<br>
-**Online courses (HTML, CSS, LESS)**
+**Online courses (HTML, CSS, SASS)**
 7. *Education (including courses, seminars, lectures, online learning)*<br>
 **Belarusian State University - Layer.**<br>
 **Belarusian State Economic University - Logistics.**
